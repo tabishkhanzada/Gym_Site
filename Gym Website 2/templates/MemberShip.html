@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>chota bheem </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#home" class="logo">Chota Bheem Gym</a>
+        <div class="menu">
+            <a href="Home.html">Home</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="MemberShip.html">Member Ship</a>
+        </div>
+    </div>
+    <section id="pricing" style="padding: 50px; text-align: center; background-color: rgba(255, 255, 255, 0.05);margin: 100px 0px 0px 0px;">
+        <h2>Pricing Plans</h2>
+        <p>Affordable plans for everyone.</p>
+        <div class="price-cards">
+            <div class="price-card">
+                <h3>Basic Plan</h3>
+                <p class="price">$20/month</p>
+                <ul class="features">
+                    <li>Access to gym</li>
+                    <li>1 class/week</li>
+                    <li>Basic support</li>
+                </ul>
+            </div>
+            <div class="price-card">
+                <h3>Premium Plan</h3>
+                <p class="price">$100/month</p>
+                <ul class="features">
+                    <li>Access to gym</li>
+                    <li>Unlimited classes</li>
+                    <li>Personal trainer</li>
+                </ul>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="padding: 50px; text-align: center; background-image: url('images/Contact\ us.jpeg'); background-size: cover; background-position: center; color: white;">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you!</p>
+        <form class="contact-form" style="margin-top: 20px;">
+            <input type="text" placeholder="Your Name" class="input-field" style="margin: 10px; padding: 10px; width: 80%; max-width: 400px; border-radius: 5px; border: none;">
+            <input type="email" placeholder="Your Email" class="input-field" style="margin: 10px; padding: 10px; width: 80%; max-width: 400px; border-radius: 5px; border: none;">
+            <textarea placeholder="Your Message" class="textarea-field" style="margin: 10px; padding: 10px; width: 80%; max-width: 400px; height: 100px; border-radius: 5px; border: none;"></textarea>
+            <br>
+            <button type="submit" class="submit-btn" style="margin-top: 20px; padding: 10px 20px; background-color: #f04c4c; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">Submit</button>
+        </form>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-container">
+           
+        <!-- Copyright Section -->
+        <div class="footer-bottom">
+            <p>© 2024 GymZone. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

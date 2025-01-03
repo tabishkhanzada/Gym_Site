@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>chota bheem gym</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#home" class="logo">Chota Bheem </a>
+        <div class="menu">
+            <a href="Home.html">Home</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="MemberShip.html">Member Ship</a>
+        </div>
+    </div>
+    <section id="classes" style="padding: 50px; text-align: center; background-color: rgba(255, 255, 255, 0.05);margin: 100px 0px 0px 0px;">
+        <h2>Our Classes</h2>
+        <p>Choose from a variety of classes to suit your fitness goals.</p>
+        <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px; flex-wrap: wrap;">
+            <div style="width: 250px; text-align: left;">
+                <img src="{{ url_for('static', filename='images/Yoga CLass.jpeg') }}" alt="Yoga Class" style="width: 100%; border-radius: 10px;">
+                <h3>Yoga</h3>
+                <p>Relax, stretch, and improve flexibility.</p>
+            </div>
+            <div style="width: 250px; text-align: left;">
+                <img src="{{ url_for('static', filename='images/Cardio.jpeg') }}" alt="Cardio Class" style="width: 100%; border-radius: 10px;">
+                <h3>Cardio</h3>
+                <p>Boost your heart health and burn calories.</p>
+            </div>
+            <div style="width: 250px; text-align: left;">
+                <img src="{{ url_for('static', filename='images/Weight lifting.jpeg') }}" alt="Strength Class" style="width: 100%; border-radius: 10px;">
+                <h3>Strength</h3>
+                <p>Build muscle and enhance endurance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section id="trainers" style="padding: 25px; text-align: center;">
+        <h2>Meet Our Trainers</h2>
+        <p>Our certified trainers are here to guide you every step of the way.</p>
+        <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px; flex-wrap: wrap;">
+            <div style="width: 300px; text-align: center;">
+                <img src="{{ url_for('static', filename='images/Gym Trainer 1.webp') }}" alt="Trainer 1" style="width: 100%; border-radius: 50%;">
+                <h3>Jack </h3>
+                <p>Strength & Conditioning</p>
+            </div>
+            <div style="width: 300px; text-align: center;">
+                <img src="{{ url_for('static', filename='images/Gym Trainer 2.jpg') }}" alt="Trainer 2" style="width: 100%; border-radius: 50%;">
+                <h3>Anthony</h3>
+                <p>Yoga Specialist</p>
+            </div>
+            <div style="width: 300px; text-align: center;">
+                <img src="{{ url_for('static', filename='images/Gym Trainer 3.jpg') }}" alt="Trainer 3" style="width: 100%; border-radius: 50%;">
+                <h3>Jone poloments</h3>
+                <p>Cardio Expert</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- About Section -->
+            <div class="footer-section" style="border-right: 1px white solid;">
+                <h3>About Chota Bheem Gym</h3>
+                <p>Your ultimate destination for achieving fitness goals with world-class trainers, state-of-the-art equipment, and personalized programs.</p>
+            </div>
+    
+        
+            <!-- Contact Section -->
+            <div class="footer-section" >
+                <h3>Contact Us</h3>
+                <p>Email: <a href="#">abc@chotabheem.com</a></p>
+                <p>Phone: <a href="=">+123 456 789</a></p>
+                <p>Address: tun tun mosi , dohalak pur</p>
+            </div>
+        </div>
+        <!-- Copyright Section -->
+        <div class="footer-bottom">
+            <p>© 2024 GymZone. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
